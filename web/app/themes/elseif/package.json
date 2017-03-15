@@ -1,0 +1,21 @@
+{
+  "name": "elseif",
+  "version": "3.0.0",
+  "repository": "https://github.com/ekandreas/elseif3",
+  "description": "Frontend managed by Laravel Mix",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "Andreas Ek, Elseif",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.3.2",
+    "laravel-mix": "^0.8.8",
+    "vue": "^2.2.4"
+  }
+}
