@@ -16,7 +16,7 @@ mix
     .sourceMaps()
     .browserSync('elseif3.app')
     .js('assets/js/app.js', 'dist/')
-    .sass('src/app.scss', 'dist/');
+    .sass('assets/sass/app.scss', 'dist/');
 
 // Full API
 // mix.js(src, output);

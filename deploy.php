@@ -27,7 +27,7 @@ set('keep_releases', 10);
 set('shared_dirs', ['web/app/uploads']);
 set('shared_files', ['.env', 'web/.htaccess', 'web/robots.txt']);
 set('env_vars', '/usr/bin/env');
-set('writable_dirs', ['web/app/uploads']);
+//set('writable_dirs', ['web/app/uploads']);
 
 task('deploy:restart', function () {
     writeln('Purge cache...');

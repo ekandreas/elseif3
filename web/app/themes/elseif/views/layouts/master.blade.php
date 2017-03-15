@@ -1,9 +1,12 @@
 <html>
     @include('views.parts.head')
-    <body>
+    <body {{ body_class() }}>
 
+        @include('views.parts.header')
 
-    @include('views.parts.footer')
-    @include('views.parts.scripts')
+        @yield('content')
+
+        @include('views.parts.footer')
+        @include('views.parts.scripts')
     </body>
 </html>
